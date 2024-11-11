@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 18px;
+}
+
+.main-content {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.sale-info {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.sale-info p {
+    font-size: 18px;
+    color: red;
+    text-decoration: line-through;
+}
+
+.original-price {
+    color: red;
+    font-size: 20px;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.discounted-price {
+    color: #004080;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#countdown-timer {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.extra-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.extra-images img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.order-form {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 40px;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #004080;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.footer-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-button {
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+    color: #777;
+    font-size: 12px;
+}
