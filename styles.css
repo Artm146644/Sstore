@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 18px;
+}
+
+.main-content {
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.sale-info {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.sale-info p {
+    font-size: 18px;
+    color: red;
+    text-decoration: line-through;
+}
+
+.original-price {
+    color: red;
+    font-size: 20px;
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.discounted-price {
+    color: #004080;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#countdown-timer {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.extra-images {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.extra-images img {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.order-form {
+    width: 80%;
+    max-width: 500px;
+    margin-top: 40px;
+    background-color: #f0f8ff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Збільшення кнопки Надіслати заявку */
+.order-form a button {
+    padding: 15px 20px;
+    font-size: 18px;
+    background-color: #40e0d0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order-form a button:hover {
+    background-color: #ff6347;
+}
+
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #004080;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.footer-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Бірюзова кнопка Оформити заявку */
+.footer-button {
+    padding: 10px 15px;
+    background-color: #40e0d0 ;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.footer-button:hover {
+    background-color: #48d1cc;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px;
+    color: #777;
+    font-size: 12px;
+}
+/* Таймер з великою синьою рамкою */
+#countdown-timer, #footer-timer {
+    font-size: 13px; /* Збільшений розмір тексту */
+    font-weight: bold;
+    color: #40e0d0; /* Колір тексту */
+    border: 3px solid #40e0d0; /* Синя рамка */
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    width: fit-content;
+    margin: 10px auto;
+}
