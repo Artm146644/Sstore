@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>uastore.uno - Комплект чохлів для коліс</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>uastore.uno</h1>
+        <h2>Комплект чохлів для коліс 4шт R13-R16</h2>
+    </header>
+    
+    <section class="main-content">
+        <div class="product-info">
+            <img src="main-wheel-cover.jpg" alt="Комплект чохлів для коліс" class="main-image">
+            <div class="sale-info">
+                <p>Акція</p>
+                <span class="original-price">1000</span>
+                <span class="discounted-price">-21% = 790</span>
+                <div id="countdown-timer"></div>
+            </div>
+            <ul class="features">
+                <li>Чохли виготовлені з водонепроникного матеріалу</li>
+                <li>Просто випрати при низькій температурі</li>
+                <li>Обладнані додатковою кишенею для гвинтів</li>
+                <li>Вшита гумка полегшує встановлення на колесо</li>
+                <li>Підходять для різних типів та розмірів шин</li>
+                <li>Ширина: 103 см, Висота: 45 см</li>
+            </ul>
+        </div>
+        
+        <div class="extra-images">
+            <img src="feature1.jpg" alt="Водонепроникний матеріал">
+            <img src="feature2.jpg" alt="Додаткова кишеня">
+            <img src="feature3.jpg" alt="Вшита гумка для зручності">
+        </div>
+    </section>
+    
+    <section class="order-form" id="order-form">
+        <h3>Замовити комплект чохлів</h3>
+        <p>Для замовлення, будь ласка, вкажіть:</p>
+        <form action="https://formspree.io/f/xgveyzpl" method="POST" >
+            <label for="name"></label>
+            <input type="text" placeholder="Ім'я та прізвище" id="name" name="name" required>
+            
+            <label for="phone"></label>
+            <input type="tel" placeholder="Номер телефону" id="phone" name="phone" required>
+            <br/>
+            <button class="order1" type="submit"><b>Надіслати заявку</b></button>
+        </form>
+    </section>
+
+    <footer>
+        <p>uastore.uno - Комплект чохлів для коліс</p>
+    </footer>
+
+    <div class="fixed-footer">
+        <div id="footer-timer"></div>
+        <span class="footer-price">790 грн</span>
+        <a href="#order-form" class="footer-button">Оформити заявку</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
